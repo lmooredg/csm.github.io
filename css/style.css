@@ -92,10 +92,11 @@ h1, h2, h3, h4, h5,
   font-size: 16px;
   border-radius: 30px;
   padding: 10px 30px; }
-  .btn:hover, .btn:active, .btn:focus {
+  .btn:hover, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
     box-shadow: none !important; }
+
   .btn.btn-primary {
     border-width: 2px;
     background: #3d5286;
@@ -107,25 +108,16 @@ h1, h2, h3, h4, h5,
       background: transparent;
       border-color: #ffffff;
       color: #ffffff; }
-
-.btn-sec {
-  font-size: 16px;
-  border-radius: 30px;
-  padding: 10px 30px; }
-  .btn:hover, .btn:active, .btn:focus {
-    outline: none;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important; }
   .btn.btn-sec {
     border-width: 2px;
     background: #3d5286;
     border-color: #3d5286;
     color: #fff;
-    -webkit-box-shadow: 0 4px 20px 5px rgba(61, 81, 133, 0.4);
-    box-shadow: 0 4px 20px 5px rgba(61, 81, 133, 0.4); }
+    -webkit-box-shadow: 0 4px 20px 5px #3d518566;
+    box-shadow: 0 4px 20px 5px #3d518566; }
     .btn.btn-sec:hover {
       background: transparent;
-      border-color: rgb(61, 81, 133);
+      border-color: #3d5185;
       color: #3d5286; }      
 
 .line-height-1 {
@@ -1659,7 +1651,6 @@ h1, h2, h3, h4, h5,
 
 .social-media {
   display: inline-block;
-  float: left;
   margin-bottom: 0px;
   padding: 0; }
   .social-media li {
