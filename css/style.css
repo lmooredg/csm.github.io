@@ -118,7 +118,24 @@ h1, h2, h3, h4, h5,
     .btn.btn-sec:hover {
       background: transparent;
       border-color: #3d5185;
-      color: #3d5286; }      
+      color: #3d5286; }
+      
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+    }
+    
+.help-block.with-errors {
+    color:#3d5286;
+    margin-top: 5px;
+    }
+
+label {
+      color: #3d5286;
+  }
+
 
 .line-height-1 {
   line-height: 1 !important; }

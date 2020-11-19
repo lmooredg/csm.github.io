@@ -346,6 +346,72 @@
 
 
  <div class="site-section bg-light" id="contacto-section">
+   <div class="container">
+  <form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Nombre *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Ingrese su nombre *" required="required" data-error="Se requiere nombre.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Apellido *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Ingrese su apellido *" required="required" data-error="Se requiere apellido.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Correo Electrónico *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Ingrese su correo electrónico *" required="required" data-error="Se requiere correo válido.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_need">Motivo de contacto *</label>
+                    <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                        <option value=""></option>
+                        <option value="Consulta">Consulta</option>
+                        <option value="Trabajar con nosotros">Trabajar con nosotros</option>
+                        <option value="-">-</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Mensaje *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Mensaje *" rows="4" required="required" data-error="Por favor, ingrese su mensaje."></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-sec btn-send" value="Enviar mensaje">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 py-3">
+                <p><strong>*</strong> Campos obligatorios</p>
+            </div>
+        </div>
+    </div>
+
+</form>
+</div>
       <div class="container">
         <div class="row mb-5">
           <div class="col-12 text-center">
