@@ -15,7 +15,7 @@ $fromEmail = 'demo@colegiosanmateo.edu.ar';
 $fromName = 'Demo contact form';
 
 // an email address that will receive the email with the output of the form
-$sendToEmail = 'info@colegiosanmateo.edu.ar';
+$sendToEmail = 'lmoore@colegiosanmateo.edu.ar';
 $sendToName = 'Demo contact form';
 
 // subject of the email
